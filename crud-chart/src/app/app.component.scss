@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.p-toolbar {
+  background-color: #005fa3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.p-toolbar-group-left button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.p-toolbar-group-left button:hover {
+  background-color: #45a049;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.table-container {
+  flex: 1 1 60%;
+  max-width: 800px;
+  overflow: auto;
+}
+
+.chart-container {
+  flex: 1 1 35%;
+  max-width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.p-table {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-table th {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+.p-table td {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.p-button-sm {
+  font-size: 12px;
+}
+
+.p-button-danger {
+  background-color: #f44336;
+  border: none;
+  color: white;
+}
+
+.p-button-sm:hover {
+  background-color: #d32f2f;
+}
+
+.p-dialog {
+  border-radius: 8px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.p-dialog .p-dialog-header {
+  background-color: #333;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 2px solid #007bff;
+}
+
+.p-dialog .p-dialog-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.p-dialog .p-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.p-dialog .p-field label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.p-dialog .p-field input,
+.p-dialog .p-field p-dropdown {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #f4f4f4;
+}
+
+.p-dialog .p-field input:focus,
+.p-dialog .p-field p-dropdown:focus {
+  border-color: #007bff;
+}
+
+.p-dialog .p-footer {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.p-dialog .p-footer button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.p-dialog .p-footer button:hover {
+  opacity: 0.9;
+}
+
+.p-dropdown {
+  width: 100%;
+  margin-top: 8px;
+  border-radius: 4px;
+}
+
+.p-dropdown-item {
+  font-size: 14px;
+}
+
+.error {
+  font-size: 12px;
+  color: #f44336;
+  margin-top: 4px;
+}
+
+ngx-charts-bar-vertical {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ngx-charts-bar-vertical .x-axis text {
+  font-size: 12px;
+  white-space: nowrap;
+  max-width: 90px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+ngx-charts-bar-vertical .y-axis text {
+  font-size: 12px;
+  color: #333;
+}
+.p-fluid .p-button {
+  width: 50%;
+}
